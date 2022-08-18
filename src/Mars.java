@@ -22,6 +22,11 @@ public class Mars {
         }
         landing = landingCheck(100);
         new GuessingGame();
+//        /Mars Adventure Game part 3
+
+//After playing the GuessingGame it is finally time for the expedition team to pack and head out
+//Run the MarsExpedition by calling a new MarsExpedition constructor
+        new MarsExpedition();
     }
 
     /**

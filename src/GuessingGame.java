@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class GuessingGame {
 
+
     public GuessingGame(){
         Scanner input = new Scanner(System.in);
         boolean correctGuess = false;
@@ -12,7 +13,7 @@ public class GuessingGame {
         int increment = 0;
         System.out.println("Hello user. What is your name?");
         String name = input.nextLine();
-        System.out.println("Welcome "+name+"I’m thinking of a number between 1 and 100.");
+        System.out.println("Welcome " + name +" I'm thinking of a number between 1 and 100.");
         Random rand = new Random();
         int number = rand.nextInt(100);
         System.out.println("Try to guess my number");
@@ -22,7 +23,7 @@ public class GuessingGame {
                 guess = input.nextInt();
             } catch (Exception e){
                 String badInput = input.next();
-                System.out.println("Thats not an integer, try again");
+                System.out.println("That's not an integer, try again");
                 continue;
             }
             if(guess >100 || guess <1){
