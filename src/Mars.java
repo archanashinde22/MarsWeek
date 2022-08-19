@@ -2,6 +2,7 @@ import java.util.SortedMap;
 
 public class Mars {
     public static void main(String[] args) throws InterruptedException {
+
         String colonyName = "SpaceX";
         int shipPopulation = 300;
         double shipFood = 4000.00;
@@ -27,6 +28,12 @@ public class Mars {
 //After playing the GuessingGame it is finally time for the expedition team to pack and head out
 //Run the MarsExpedition by calling a new MarsExpedition constructor
         new MarsExpedition();
+//Mars Adventure Game part 4
+
+//After an excited expedition it is time for the boring paperwork
+//Run the FindingsLists by calling a new FindingsLists constructor
+        new FindingsLists();
+
     }
 
     /**
